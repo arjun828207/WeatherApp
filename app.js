@@ -39,18 +39,6 @@ app.post("/home",function(req,res){
 
 });
 
-// const url = "https://api.openweathermap.org/data/2.5/weather?q=Dhanbad,India&appid=cec602c3e9885a46aa957a86b97af327&units=metric";
-//     https.get(url,function(response){
-        
-//         response.on("data",function(data){
-//             const weatherData = JSON.parse(data);
-//             const temp = weatherData.main.temp;
-//             const weatherDescription = weatherData.weather[0].description;
-
-//         })
-//     });
-
-
 
 app.listen(3000,function(){
     console.log("Server is running on port 5000");
